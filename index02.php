@@ -21,6 +21,18 @@
                 if(!($_GET['serveur'] == true))
                 echo "<script language='JavaScript'>alert('paramètre serveur inexistant !')</script>";
             ?>
+            <?php 
+            // fonction isset()
+            // if (isset($_GET['langage'])
+	        // echo '  '. 'LANGAGE : '. ($_GET['langage']). '  ';  
+            // else 
+	        // echo "<script language='JavaScript'>alert('paramètre langage inexistant !')</script>";
+
+            // if (isset($_GET['serveur'])
+	        // echo '  '. 'SERVEUR : '. ($_GET['serveur']). '  ';  
+            // else 
+	        // echo "<script language='JavaScript'>alert('paramètre serveur inexistant !')</script>";
+            ?>
         </div>
     </div>
 </body>
